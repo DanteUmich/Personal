@@ -17,6 +17,6 @@ ul{
    margin-left: 45%;
    padding: 5;
 }
-ul.nav.pull-left a:hover {
-    background: none;
+li {
+  display: inline;
 }
