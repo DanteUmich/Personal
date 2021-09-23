@@ -11,7 +11,8 @@ h1{
 	padding-top: 25px;
 }
 ul{
-   list-style-type: none;
+   color: black;
+   list-style-type: circle;
    margin: 0;
    padding: 5;
    text-align: center;
