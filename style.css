@@ -13,6 +13,6 @@ ul{
    color: black;
    list-style-type: circle;
    list-style-position: inside;
-   margin: 0;
+   margin-left: 50%;
    padding: 5;
 }
