@@ -1,7 +1,6 @@
 body{
   background-color: #ADD8E6;
   font-family: sans-serif;
-  text-align: center;
 }
 h1{
 	color: #5B4C39;
@@ -13,6 +12,7 @@ h1{
 ul{
    color: black;
    list-style-type: circle;
+   list-style-position: inside;
    margin: 0;
    padding: 5;
 }
