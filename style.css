@@ -1,7 +1,16 @@
 body{
   background-color: #ADD8E6;
   font-family: sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 200px 200px 200px 200px
 }
+
+header{
+  grid-column: 2 / span 1;
+  grid-row: 1/ span 1;
+}
+
 h1{
 	color: #000000;
 	font-size: 50px;
@@ -20,4 +29,5 @@ ul{
 li{
   color:#000000;
   display: inline;
+
 }
