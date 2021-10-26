@@ -23,8 +23,8 @@ ul{
    font-size: 20px;
    list-style-type: circle;
    list-style-position: inside;
-   margin-left: 45%;
-   padding: 5;
+   display: inline-block;
+   list-style-type: none;
 }
 li{
   color:#000000;
