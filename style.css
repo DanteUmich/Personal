@@ -16,7 +16,8 @@ h1{
 	font-size: 50px;
 	font-family: Tahoma, sans-serif;
 	padding-top: 25px;
-  text-align:center;
+  justify-content:left;
+  padding-left:20px;
 }
 ul{
    color: black;
