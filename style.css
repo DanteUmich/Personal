@@ -16,7 +16,7 @@ h1{
 	font-size: 50px;
 	font-family: Tahoma, sans-serif;
 	padding-top: 25px;
-  justify-content:left;
+  align-items:left;
   padding-left:20px;
 }
 ul{
