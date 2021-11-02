@@ -25,6 +25,7 @@ ul{
    list-style-position: inside;
    display: inline-block;
    list-style-type: none;
+   justify-content:center;
 }
 li{
   color:#000000;
