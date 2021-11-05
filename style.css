@@ -29,11 +29,11 @@ ul{
    justify-content:center;
 }
 li{
-  color:#996c54;
+  color:#000000;
   display: inline;
 
 }
-li:visited{
+li:active{
   text-decoration:none;
   color:#cbe91f;
 }
