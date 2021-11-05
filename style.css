@@ -3,7 +3,7 @@ body{
   font-family: sans-serif;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 200px 200px 200px 200px
+  grid-template-rows: 200px 200px 200px 200px;
 }
 
 header{
@@ -29,7 +29,14 @@ ul{
    justify-content:center;
 }
 li{
-  color:#000000;
+  color:#996c54;
   display: inline;
 
+}
+li:visited{
+  text-decoration:none;
+  color:#cbe91f;
+}
+li:active{
+  color:rgb(15, 196, 54);
 }
