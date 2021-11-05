@@ -12,28 +12,34 @@ header{
 }
 
 h1{
-	color: #000000;
+	color: rgb(59, 42, 5);
 	font-size: 50px;
 	font-family: Tahoma, sans-serif;
 	padding-top: 25px;
   align-items:left;
   padding-left:40px;
 }
+
 ul{
    color: black;
-   font-size: 20px;
+   font-size: 25px;
    list-style-type: circle;
    list-style-position: inside;
-   display: inline-block;
    list-style-type: none;
    justify-content:center;
 }
+
 li{
-  color:#000000;
   display: inline;
+  padding:20px;
 
 }
-li:active{
-  text-decoration:none;
-  color:#cbe91f;
+
+a{
+  color:#041B15;
+  text-decoration: none;
+  font-weight:bold;
+}
+ul .current{
+  color:#726DA8;
 }
