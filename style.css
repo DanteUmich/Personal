@@ -4,6 +4,8 @@ body{
   display: grid;
   grid-template-columns:1fr 2fr 1fr;
   grid-template-rows: 0.2fr 3fr 0.2fr;
+  width: 100vw;
+  height:100vh;
 }
 
 header{
@@ -80,7 +82,16 @@ img{
 
 .first{
   align-items:center;
-  
   justify-content: center;
   align-items:center;
+}
+
+footer{
+  display:flex;
+  grid-row:3/span 1;
+  grid-column:1/span all;
+  font-size:20px;
+  align-items:flex-end;
+  color:cornsilk;
+  background-color:#1a1102;
 }
