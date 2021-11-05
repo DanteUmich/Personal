@@ -1,9 +1,8 @@
 body{
   background-color: #ADD8E6;
   font-family: sans-serif;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr 2fr 2fr 0.5fr;
+  display: flex;
+  flex-direction: column;
 }
 
 header{
@@ -17,6 +16,9 @@ header{
 }
 
 h1{
+  display:flex;
+  justify-content: center;
+  align-items: center;
 	color: rgb(59, 42, 5);
 	font-size: 200%;
 	font-family: Tahoma, sans-serif;
@@ -26,6 +28,7 @@ h1{
 
 nav{
   display:flex;
+  flex-direction: column;
   grid-row:2 span/1;
   justify-content:center;
 }
@@ -33,9 +36,6 @@ nav{
 ul{
    color: black;
    font-size: 25px;
-   list-style-type: circle;
-   list-style-position: inside;
-   list-style-type: none;
    justify-content:center;
 }
 
