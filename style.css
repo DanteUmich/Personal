@@ -22,6 +22,7 @@ header{
   align-items:center;
   border-style: dashed;
   border-width:5px;
+  min-width:100px;
 }
 
 h1{
@@ -61,15 +62,14 @@ ul .current{
 
 
 h2{
-  display:grid;
+  
   font-size: 70px;
   grid-row:2/span 1;
   grid-column:2/span 1;
-  justify-content: center;
-  align-items:flex-start;
+  text-align:center;
 }
 
-main{
+.shopitems{
   padding-top:20px;
   grid-row:2/span 1;
   grid-column:2/span 1;
@@ -77,6 +77,15 @@ main{
   flex-direction: column;
   justify-content:center;
   align-items:center;
+}
+
+main{
+  padding-top:30px;
+  grid-row:2/span 1;
+  grid-column:2/span 1;
+  display:flex;
+
+  
 }
 
 img{
