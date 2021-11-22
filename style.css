@@ -98,6 +98,15 @@ article{
   grid-column: 2/ span 1;
 }
 
+.indeximg{
+  max-width:350px;
+  padding: 25px;
+}
+
+section{
+  align-items:center;
+}
+
 .first{
   align-items:center;
   justify-content: center;
