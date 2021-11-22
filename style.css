@@ -87,7 +87,6 @@ main{
   flex-direction:column;
 }
 article{
-  padding-top:55px;
   font-size: 40px;
   text-align:center;
 }
@@ -99,13 +98,11 @@ article{
 }
 
 .indeximg{
-  max-width:350px;
+  max-width:250px;
   padding: 25px;
+  align-self:center;
 }
 
-section{
-  align-items:center;
-}
 
 .first{
   align-items:center;
