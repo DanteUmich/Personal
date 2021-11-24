@@ -9,7 +9,7 @@ body{
   display: grid;
   grid-template-columns:1fr 2fr 1fr;
   grid-template-rows: 0.2fr 3fr 0.2fr;
-  width: 100vw;
+  width: 2fr;
   height:100vh;
 }
 
@@ -20,9 +20,7 @@ header{
   flex-direction:column;
   justify-content:center;
   align-items:center;
-  border-style: dashed;
-  border-width:5px;
-  min-width:width;
+  min-width:max-content;
   padding-bottom:20px;
 }
 
@@ -63,8 +61,7 @@ ul .current{
 
 
 h2{
-  
-  font-size: 70px;
+  font-size: 60px;
   grid-row:2/span 1;
   grid-column:2/span 1;
   text-align:center;
@@ -95,7 +92,7 @@ article{
 }
 
 .shopimg{
-  width: 400px;
+  width: 380px;
   padding: 5px;
   grid-column: 2/ span 1;
   border:5px dotted #ffffff;
@@ -154,7 +151,7 @@ section{
 }
 
 .otherimg{
-  max-width:400px;
+  max-width:380px;
   padding-bottom:25px;
   padding: 5px;
   border:5px dotted #ffffff;
