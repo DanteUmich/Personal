@@ -22,7 +22,7 @@ header{
   align-items:center;
   border-style: dashed;
   border-width:5px;
-  min-width:600px;
+  min-width:width;
   padding-bottom:20px;
 }
 
