@@ -22,7 +22,8 @@ header{
   align-items:center;
   border-style: dashed;
   border-width:5px;
-  min-width:100px;
+  min-width:max-content;
+  padding-bottom:20px;
 }
 
 h1{
@@ -89,12 +90,14 @@ main{
 article{
   font-size: 40px;
   text-align:center;
+  padding-bottom: 30px;
 }
 
 .shopimg{
   width: 400px;
-  padding: 25px;
+  padding: 5px;
   grid-column: 2/ span 1;
+  border:5px dotted #ffffff;
 }
 
 .indeximg{
@@ -114,8 +117,13 @@ footer{
   display:flex;
   grid-row:3/span 1;
   grid-column:1/span all;
-  font-size:20px;
-  align-items:flex-end;
-  color:cornsilk;
   background-color:#1a1102;
+  align-items:center;
+  justify-content:center;
+  min-height:50px;
+}
+
+h4{
+  font-size:20px;
+  color:antiquewhite;
 }
