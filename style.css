@@ -181,3 +181,12 @@ video{
 .skip-to-content-link:focus {
   transform: translateY(0%);
 }
+
+@media only screen and (min-width: 650px) {
+  header{
+    font-size:25px;
+  }
+  ul{
+    font-size:20px;
+  }
+}
