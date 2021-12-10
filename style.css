@@ -75,6 +75,7 @@ h2{
   flex-direction: column;
   justify-content:center;
   align-items:center;
+  
 }
 
 main{
@@ -96,12 +97,24 @@ article{
   padding: 5px;
   grid-column: 2/ span 1;
   border:5px dotted #ffffff;
+  filter: saturation(95%);
+}
+
+.shopimg:hover{
+  border:10px dotted #ffffff;
 }
 
 .indeximg{
   max-width:250px;
   padding: 25px;
   align-self:center;
+  animation-name: indeximg;
+  animation-duration: 3s;
+}
+
+@keyframes indeximg{
+  from{width:0%;}
+  to{width:100%;}
 }
 
 .aboutimg{
@@ -200,6 +213,7 @@ video{
     padding: 5px;
     grid-column: 2/ span 1;
     border:5px dotted #ffffff;
+    filter: saturation(95%);
   }
   h5{
     padding-top:13px;
@@ -227,6 +241,15 @@ video{
     font-size: 25px;
     justify-content:center;
     align-items:center;
+ }
+ @media (prefers-reduced-motion){
+  .indeximg{
+    max-width:250px;
+    padding: 25px;
+    align-self:center;
+    animation-name: indeximg;
+    animation-duration: 0s;
+  }
  }
 }
 }
